@@ -13,7 +13,7 @@ const DashboardComponent = () => {
 
 
     let navigate = useNavigate();
-    let baseUrl = "http://localhost:3000/file-upload";
+    let baseUrl = "http://localhost:5090/file-upload";
 
     // blog related functions
     const [blogs, setBlogs] = useState([]);
